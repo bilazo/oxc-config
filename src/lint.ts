@@ -51,6 +51,14 @@ const DEFAULT_IGNORES: string[] = [
   '**/public/**',
   '**/routeTree.gen.ts',
   '**/*.d.ts',
+
+  // Lock files
+  'pnpm-lock.yaml',
+  'package-lock.json',
+  'yarn.lock',
+  '**/pnpm-lock.yaml',
+  '**/package-lock.json',
+  '**/yarn.lock',
 ]
 
 function loadGitignorePatterns(): string[] {
