@@ -1,5 +1,11 @@
 # @bilazo/oxc-config
 
+## 1.0.3
+
+### Patch Changes
+
+- ec2b847: Update dependencies
+
 ## 1.0.2
 
 ### Patch Changes
