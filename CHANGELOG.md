@@ -1,5 +1,11 @@
 # @bilazo/oxc-config
 
+## 1.0.2
+
+### Patch Changes
+
+- cb91d14: Add new ignore file to lint
+
 ## 1.0.1
 
 ### Patch Changes
