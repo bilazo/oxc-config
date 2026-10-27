@@ -1,6 +1,6 @@
 {
   "name": "@bilazo/oxc-config",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Shared Oxlint + Oxfmt presets.",
   "keywords": [
     "config",

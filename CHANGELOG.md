@@ -1,5 +1,11 @@
 # @bilazo/oxc-config
 
+## 1.0.4
+
+### Patch Changes
+
+- 4929ed5: Update package.json
+
 ## 1.0.3
 
 ### Patch Changes
