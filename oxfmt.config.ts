@@ -47,5 +47,6 @@ export default defineConfig({
     'coverage/**',
     '**/*.min.js',
     'README.md',
+    'CHANGELOG.md',
   ],
 })

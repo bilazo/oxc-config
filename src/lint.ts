@@ -236,8 +236,10 @@ export function base(overrides?: Partial<OxlintConfig>): OxlintConfig {
 }
 
 /**
- * Type-aware lint preset — enables 59 type-aware rules via tsgolint + type checking.
- * Requires TypeScript 7.0+ and `oxlint-tsgolint` (bundled as dependency).
+ * Type-aware lint preset — enables type-aware rules via tsgolint + type checking.
+ *
+ * Note: type-aware rules require TypeScript project references (`tsconfig.json`)
+ * and a `tsconfig` path in oxlint options (set automatically by `typeCheck: true`).
  */
 export function typeAware(overrides?: Partial<OxlintConfig>): OxlintConfig {
   return preset(
