@@ -66,10 +66,10 @@
     "@changesets/cli": "^2.31.1",
     "@types/node": "^24.19.2",
     "oxfmt": "^0.74.0",
-    "oxlint": "^1.89.0",
+    "oxlint": "^1.90.0",
     "oxlint-tsgolint": "^0.23.0",
     "publint": "^0.3.25",
-    "tsdown": "^0.23.2",
+    "tsdown": "^0.23.4",
     "typescript": "^5.9.3"
   },
   "peerDependencies": {
