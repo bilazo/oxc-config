@@ -144,6 +144,8 @@ export function base(overrides?: Partial<OxlintConfig>): OxlintConfig {
         'react/no-unescaped-entities': 'off',
         // Misfires on Next.js Server Actions and placeholder async functions.
         'require-await': 'off',
+        // Duplicate with unicorn/no-negated-condition
+        'eslint/no-negated-condition': 'off',
       },
       env: {
         browser: true,
@@ -672,7 +674,8 @@ export function vitest(options?: VitestOptions): OxlintConfig {
             'vitest/valid-title': 'error',
             'vitest/consistent-test-it': ['error', { fn: 'it', withinDescribe: 'it' }],
             'vitest/prefer-hooks-in-order': 'error',
-            'vitest/prefer-lowercase-title': 'error',
+            // Enforce it, test, describe, and bench to have descriptions that begin with a lowercase letter.
+            'vitest/prefer-lowercase-title': 'off',
             'vitest/no-disabled-tests': isInEditorEnv() ? 'warn' : 'error',
             'vitest/no-focused-tests': isInEditorEnv() ? 'warn' : 'error',
             'vitest/require-mock-type-parameters': 'off',
