@@ -425,7 +425,6 @@ export function reactVite(overrides?: Partial<OxlintConfig>): OxlintConfig {
       jsPlugins: resolvePlugins(['eslint-plugin-react-refresh']),
       rules: {
         ...reactRules,
-        'react-refresh/only-export-components': ['warn', { allowConstantExport: true }],
       },
     },
     overrides,
