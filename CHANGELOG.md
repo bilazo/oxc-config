@@ -1,5 +1,11 @@
 # @bilazo/oxc-config
 
+## 1.0.6
+
+### Patch Changes
+
+- 2388496: Update rules
+
 ## 1.0.5
 
 ### Patch Changes
